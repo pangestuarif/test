@@ -27,7 +27,7 @@ app.get('/page-books', (req, res)=>{
 })
 
 
-mongoose.connect('mongodb+srv://admin:admin123@booksapi.zpbjpjl.mongodb.net/books-api?retryWrites=true&w=majority')
+mongoose.connect('')
 .then(()=>{
     console.log('connected to MongoDB')
     app.listen(3000, ()=>{
